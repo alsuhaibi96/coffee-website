@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Coffee Taste</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="topnav" id="myTopnav">
+                <a href="#greatCoffee" class="greatCoffee">GREAT COFFEE</a>
+                <a href="#home" class="active">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#blog">Blog</a>
+                <a href="#pages">Pages</a>
+                <a href="#contact">Contact</a>
+                <a href="" class="login">Login<i class="fa-sign-in"></i></a>
+                <a href="" class="signup">Sign in<i class="fa-sign-out"></i></a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="top-container">
+            <div class="content">
+                <section>
+                    <h1>Great Coffee</h1>
+                    <span>
+                        Learmlerm Learmlerm
+                        Learmlerm Learmlerm
+                    </span>
+                </section>
+
+            </div>
+            <section>
+                <button class="showDetails"> Show Details </button>
+            </section>
+        </div>
+
+        <div class="middle-container">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+            <div class="item6"></div>
+
+
+        </div>
+        <div class="middle-container-mid-content">
+            <div class="item41">
+                <h2>Freshly Picked Mocha</h2>
+                <button class="shopNow">SHOP NOW</button>
+            </div>
+            <div class="item42">
+                <h2>Freshly Picked Mocha</h2>
+                <button class="shopNow">SHOP NOW</button>
+
+            </div>
+            <div class="item43">
+                <h2>Freshly Picked Mocha</h2>
+                <button class="shopNow">SHOP NOW</button>
+
+            </div>
+            <div class="item44">
+                <h2>Freshly Picked Mocha</h2>
+                <button class="shopNow">SHOP NOW</button>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>Information</div>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
